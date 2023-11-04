@@ -16,7 +16,7 @@
     margin-top: 20px;
 }
 /*idea設定*/
-.idea_pic{
+.idea{
     position: relative;
 }
 /*idea画像位置設定*/
@@ -52,6 +52,6 @@
 
 
 /**************新着情報********/
-.news_tittle-en{
+.news{
     position: static;
 }
