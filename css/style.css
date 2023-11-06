@@ -15,9 +15,9 @@
     text-align: right;
     margin-top: 20px;
 }
-/*idea設定*/
+/*****会社理念idea設定*****/
 .idea{
-    position: relative;
+position: relative;
 }
 /*idea画像位置設定*/
 .idea_pic{
@@ -26,19 +26,15 @@
 }
 .idea_pic_first{
     width: 60%;
-    height:200px;
-    position: absolute;
-    width: 650px;
-    height: 450px;
+    height:auto;
     z-index: 0;　　　/*重なり優先順位　　低*/
 }
 /*idea 方針コメントグループの設定*/
 .idea_tittle-gr{
-    position: absolute;　　/*重なり許可*/
-    top: 150px;　　　/*relativeからの距離*/
+    top: 100px;　　　/*relativeからの距離*/
     z-index: 10;    /*重なり優先順位　　高*/
-    margin-top: 100px;
     margin-left:200px;
+    position: absolute;
 }
 /*フォント設定*/
 .idea_title-gr_tittle-en {
@@ -46,12 +42,78 @@
     font-size: 80px;
 }
 .idea_tittle-gr_tittle-jp{
-    /*margin-top: 180px;*/
-    /*margin-left:200px;*/
+    
     }
 
 
 /**************新着情報********/
-.news{
-    position: static;
+.news_tittle{
+    text-align: center;
 }
+.news_tittle-en{
+    font-family: "Shadows Into Light", serif;
+    }
+.news_tittle-jp{
+    font-size: 20px;
+}
+.news_group{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.news_group_detail{
+    display: flex;
+        padding: 15px;
+        border-bottom: 1px solid #000;
+}
+
+.news___date{
+
+}
+
+.news___label{
+    width: 100px;
+        height: 20px;
+        background: #e50606df;
+        border-radius:  10px;
+        color:azure;
+        text-align: center;
+
+}
+.news___text{
+
+}
+
+/**************詳細（about)********/
+/*aboutタイトル位置*/
+
+
+.about_tittle{
+    text-align: center;
+}
+
+.about_outline {
+    display: flex;
+    justify-content:space-center;
+    width: 100%;
+    
+}
+
+/*コメント画像設定１*/
+.about_outline_comment{
+    width: 40%;
+    height:auto;
+    margin-left: 10%;
+}
+
+/*idea画像位置設定*/
+/*.about_outline_pic {
+text-align: right;
+}*/
+.about___pic1{
+    width: 40%;
+    height: auto;
+    margin-right: 10%;
+}
+
+
