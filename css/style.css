@@ -94,9 +94,9 @@ position: relative;
 
 .about_outline {
     display: flex;
-    justify-content:space-around;
+   justify-content:space-around;
     width: 80%;
-    
+    margin: 0 auto;
 }
 
 
@@ -147,4 +147,140 @@ position: relative;
     grid-column: 2/3;
     grid-row: 2/3;
     background: #f1b6bd;
+}
+
+.service__pic1 {
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+
+.service__pic2 {
+    width: 20%;
+    height: auto;
+    text-align:left;
+}
+
+.service__pic3 {
+    width: 20%;
+    height: auto;
+    text-align: left;
+}
+
+/**************ブログ(blog)********/
+.blog{}
+
+.blog_tittle {
+    text-align: center;
+}
+.blog_tittle-en {
+    font-family: "Shadows Into Light", serif;
+}
+
+.blog_tittle_jp{}
+
+
+.blog_group{
+display: flex;
+justify-content:  space-around;
+width: 80%;
+margin: 0 auto;
+
+}
+ 
+.blog_group_img1{
+    width: 20%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.blog__picimg1{
+    width: 100%;
+    position: relative;
+}
+
+.blog__pic1{
+    width: 100%;
+    height:auto;
+}
+
+.blog__head1{
+    position: absolute;
+    top:0px;
+    left:0px;
+    color:aliceblue;
+    background-color: rgb(209, 21, 34);
+    width: 50px;
+}
+
+.blog__about1{}
+
+.blog___text1{
+    font-size: 15px;
+}
+
+.blog__foot1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog___date1{
+    font-size: 13px;
+}
+
+.blog___comp{
+    font-size: 13px;
+}
+
+.blog_btn_group{
+width: 200px;
+height: 80px;
+text-align: center;
+margin: 0 auto;
+}
+
+.blog_btn{
+    width: 100%;
+    height: 100%;
+    background: #b4d9df;
+    border-radius: 30px;
+    border: solid 5px #ff0000;
+    }
+
+
+/**************会社概要********/
+.companypofile{
+
+
+}
+.companyprofile_tittle{
+text-align: center;
+}
+.companyprofile_tittle-en{
+font-family: "Shadows Into Light", serif;
+}
+
+.service_tittle-jp{
+
+}
+.company{
+    width: 60%;
+    height: auto;
+    margin:0 auto;
+}
+
+/**************採用関係********/
+.rcruit{
+
+}
+
+.recruit_info{
+/*width: 50%;*/
+/*height: auto;*/
+background-image: url("img/recruit.png") ;
+    /* 高さを指定 */
+    height: 200px;
+}
+.recruit_interview{
+    width: 50%;
+    height: auto;
+    background: url(./img/interview.png) no-repeat bottom;
 }
