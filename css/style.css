@@ -275,10 +275,8 @@ font-family: "Shadows Into Light", serif;
 }
 .recruit_info {
     width: 50%;
-    height:300px;
     background-image: url(../img/recruit.png);
     no-repeat bottom;
-    
     position: relative;
     
    /* text-align: center;*/
@@ -296,20 +294,19 @@ font-family: "Shadows Into Light", serif;
 
 .recruit_interview{
     width: 50%;
-    height: 300px;
     background-image: url(../img/interview.png) ;
     no-repeat bottom;
-    color: aliceblue;
+  /*  color: aliceblue;*/
     font-size: 30px;
-  /*  position: relative;*/
+    position: relative;
     
 }
 
 .recruit_interview_text {
-  /*  position: absolute;*/
-  /*  top: 50%;*/
-  /*  left: 50%;*/
-  margin: 150px 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  /*  margin: 150px 30%;*/
     color: aliceblue;
     font-size: 30px;
 }
