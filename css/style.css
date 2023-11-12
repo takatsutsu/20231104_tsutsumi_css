@@ -268,19 +268,30 @@ font-family: "Shadows Into Light", serif;
 }
 
 /**************採用関係********/
-.rcruit{
+.recruit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.recruit_info {
+    width: 50%;
+    height:300px;
+    background-image: url(../img/recruit.png);
+    no-repeat bottom;
+    color:aliceblue;
+    font-size: 30px;
+    text-align: center;
 
+    /*align-items:center;*/
 }
 
-.recruit_info{
-/*width: 50%;*/
-/*height: auto;*/
-background-image: url("img/recruit.png") ;
-    /* 高さを指定 */
-    height: 200px;
-}
+
 .recruit_interview{
     width: 50%;
-    height: auto;
-    background: url(./img/interview.png) no-repeat bottom;
+    height: 300px;
+    background-image: url(../img/interview.png) ;
+    no-repeat bottom;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
 }
