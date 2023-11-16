@@ -65,6 +65,7 @@ span{
     color:#e84bd5;
    /* text-align: left;*/
     }
+
 .news_tittle-jp{
     font-size: 20px;
 }
@@ -77,23 +78,26 @@ span{
 
 .news_group_detail{
     display: flex;
-        padding: 15px;
-        border-bottom: 1px solid #000;
+    padding: 15px;
+    border-bottom: 1px solid #000;
 }
 
 .news___date{
+    width: 15%;
 }
 
 .news___label{
-    width: 100px;
-        height: 20px;
-        background: #e50606df;
-        border-radius:  10px;
-        color:azure;
-        text-align: center;
-
+    width: 15%;
+    height: 20px;
+    background: #e50606df;
+    border-radius:  10px;
+    color:azure;
+    text-align: center;
+    margin-left: 5%;
 }
 .news___text{
+    margin-left: 5%;
+    width: 60%;
 }
 
 /**************詳細（about)********/
@@ -101,33 +105,31 @@ span{
 
 
 .about_tittle{
-    width: 60%;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 40%;
+    text-align: center;
 }
-.about_tittle-en{
+.about_tittle-en  {
     font-family: "Shadows Into Light", serif;
     color: #e84bd5;
 }
+
 .about_tittle-jp {
     font-size: 20px;
 }
 
 .about_outline {
     display: flex;
-   justify-content:space-around;
+    justify-content:space-around;
     width: 80%;
     margin: 0 auto;
 }
-
-
 
 /*コメント画像設定１*/
 .about_outline_comment{
     width: 40%;
     height:auto;
-  /*  margin-left: 30%;*/
+/*  margin-left: 30%;*/
 }
 .about_outline_pic {
     width: 40%;
@@ -389,10 +391,8 @@ td{
     background-image: url(../img/recruit.png);
     no-repeat bottom;
     position: relative;
-    
-   /* text-align: center;*/
-   /* border-radius: 10px;*/
-
+    /* text-align: center;*/
+    /* border-radius: 10px;*/
     /*align-items:center;*/
 }
 .recruit_info_text{
@@ -423,8 +423,8 @@ td{
 }
 /**************お問い合わせ********/
 .inquiry_head{
-       /* width: 80%;*/
-      /*  height: auto;*/
+    /* width: 80%;*/
+    /*  height: auto;*/
         font-size: 20px;
         text-align: center;
         margin-top: 50px;
@@ -440,10 +440,8 @@ td{
 .inquiry_btn_group {
     width: 80%;
     height: auto;
-   /* text-align: center;*/
-    
+    /* text-align: center;*/
     margin: 0 auto;
-
 }
 
 .inquiry_btn {
@@ -482,4 +480,9 @@ td{
     position: absolute;
     top: 30px;
     left: 40%;
+}
+
+/***  ナビゲーションの下線を消す　***/
+a {
+    text-decoration: none;
 }
