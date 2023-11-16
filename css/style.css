@@ -10,15 +10,18 @@
     width: 200px;
     height:50px;
 }
+
 /*ヘッダ右設定*/
 .header_inner_right{
     text-align: right;
     margin-top: 20px;
 }
+
 /*****会社理念idea設定*****/
 .idea{
 position: relative;
 }
+
 /*idea画像位置設定*/
 .idea_pic{
     display: flex;
@@ -36,29 +39,40 @@ position: relative;
     margin-left:200px;
     position: absolute;
 }
+
 /*フォント設定*/
 .idea_title-gr_tittle-en {
     font-family: "Shadows Into Light", serif;
     font-size: 80px;
 }
+
 .idea_tittle-gr_tittle-jp{
     
     }
-
+span{
+    color: cornflowerblue;
+}
 
 /**************新着情報********/
 .news_tittle{
-    text-align: center;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20%;
 }
 .news_tittle-en{
     font-family: "Shadows Into Light", serif;
+    color:#e84bd5;
+   /* text-align: left;*/
     }
 .news_tittle-jp{
     font-size: 20px;
 }
 .news_group{
     width: 60%;
-    margin: 0 auto;
+    margin-top: 0;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .news_group_detail{
@@ -68,7 +82,6 @@ position: relative;
 }
 
 .news___date{
-
 }
 
 .news___label{
@@ -81,7 +94,6 @@ position: relative;
 
 }
 .news___text{
-
 }
 
 /**************詳細（about)********/
@@ -89,7 +101,17 @@ position: relative;
 
 
 .about_tittle{
-    text-align: center;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+}
+.about_tittle-en{
+    font-family: "Shadows Into Light", serif;
+    color: #e84bd5;
+}
+.about_tittle-jp {
+    font-size: 20px;
 }
 
 .about_outline {
@@ -119,75 +141,143 @@ position: relative;
 
 /**************サービス内容(service)********/
 .service_tittle {
-    text-align: center;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20%;
 }
 .service_tittle-en {
     font-family: "Shadows Into Light", serif;
+    color: #e84bd5;
+}
+
+.service_tittle-jp {
+    font-size: 20px;
 }
 .service_boxs{
     display: flex;
     display: grid;
     margin:  0 auto;
-    width: 80%;
-   
-        grid-template-rows: 150px 150px;
-        grid-template-columns: 1fr 1fr;
+    width: 70%;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 1fr 1fr;
 }
 .service_boxs_box1{
     grid-column: 1/2;
-        grid-row: 1/3;
-        background: #e80b8c;
+    grid-row: 1/3;
+    background: #e80b8c;
+    position: relative;
 }
+
 .service_boxs_box2 {
     grid-column: 2/3;
     grid-row: 1/2;
     background: #e57f9c;
+    position: relative;
 }
+
 .service_boxs_box3 {
     grid-column: 2/3;
     grid-row: 2/3;
     background: #f1b6bd;
+    position: relative;
 }
 
 .service__pic1 {
     width: 30%;
     height: auto;
     text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 5%;
 }
 
 .service__pic2 {
     width: 20%;
     height: auto;
     text-align:left;
+    position:absolute;
+    left:5%;
+    top:20%;
 }
 
 .service__pic3 {
     width: 20%;
     height: auto;
     text-align: left;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+
+.service___head1 {
+    top: 55%;
+    position: absolute;
+    left: 45%;
+}
+
+.service___head2 {
+    top: 10%;
+    position: absolute;
+    left: 50%;
+}
+
+.service___head3 {
+    top: 10%;
+    position: absolute;
+    left: 50%;
+}
+
+.service___text1 {
+    font-size: 16px;
+    top: 65%;
+    width: 80%;
+    position: absolute;
+    left:10%;
+}
+
+.service___text2 {
+    font-size: 16px;
+    top: 30%;
+    width: 50%;
+    position: absolute;
+    left: 40%;
+}
+
+.service___text3 {
+    font-size: 16px;
+    top: 30%;
+    width: 50%;
+    position: absolute;
+    left: 40%;
 }
 
 /**************ブログ(blog)********/
 .blog{}
 
 .blog_tittle {
-    text-align: center;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20%;
 }
+
 .blog_tittle-en {
     font-family: "Shadows Into Light", serif;
+    color: #e84bd5;
 }
 
-.blog_tittle_jp{}
-
+.blog_tittle_jp {
+        font-size: 20px;
+    }
 
 .blog_group{
 display: flex;
 justify-content:  space-around;
 width: 80%;
 margin: 0 auto;
-
 }
- 
+
 .blog_group_img1{
     width: 20%;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
@@ -231,48 +321,68 @@ margin: 0 auto;
 }
 
 .blog_btn_group{
-width: 200px;
-height: 80px;
-text-align: center;
+height: auto;
+/*text-align: center;*/
 margin: 0 auto;
 }
 
 .blog_btn{
-    width: 100%;
-    height: 100%;
-    background: #b4d9df;
-    border-radius: 30px;
-    border: solid 5px #ff0000;
+        border-style:solid;
+        border-width: 2px;
+        border-radius: 50px;
+        display: block;
+        width: 150px;
+        padding: 15px;
+        box-sizing: border-box;
+        background: #edeaec;
+        color: #d724a8;
+        text-decoration: none;
+        text-align: center;
+        margin: 30px auto;
     }
 
 
 /**************会社概要********/
 .companypofile{
-
-
 }
+
 .companyprofile_tittle{
-text-align: center;
+width: 60%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20%;
 }
 .companyprofile_tittle-en{
 font-family: "Shadows Into Light", serif;
+color: #e84bd5;
 }
 
-.service_tittle-jp{
-
+.companyprofile_tittle-jp{
 }
 .company{
-    width: 60%;
+    width: 70%;
     height: auto;
     margin:0 auto;
+}
+
+table,tr,th,td {
+    border: 2px #dedada solid;
+    line-height: 30px;
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: left;
 }
 
 /**************採用関係********/
 .recruit{
     width: 100%;
-  /*  height: 300px;*/
+    height: 300px;
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 .recruit_info {
     width: 50%;
@@ -288,7 +398,7 @@ font-family: "Shadows Into Light", serif;
 .recruit_info_text{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
     color: aliceblue;
     font-size: 30px;
 }
@@ -306,8 +416,70 @@ font-family: "Shadows Into Light", serif;
 .recruit_interview_text {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 35%;
  /*  margin: 150px 30%;*/
     color: aliceblue;
     font-size: 30px;
+}
+/**************お問い合わせ********/
+.inquiry_head{
+       /* width: 80%;*/
+      /*  height: auto;*/
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+}
+.inquiry_bar{
+    font-synthesis-style: bold;
+    font-size: 30px;
+    text-align: center;
+    color:#8b00be;
+}
+
+.inquiry_btn_group {
+    width: 80%;
+    height: auto;
+   /* text-align: center;*/
+    
+    margin: 0 auto;
+
+}
+
+.inquiry_btn {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    position: relative;
+    display: block;
+    width: 200px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #e84bd5, #8b00be);;
+    color: #f8f3f6;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 5px 0 hsla(352, 72%, 14%, 0.605);
+}
+.inquiry_btn::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        background: url(../img/mailicon.svg) no-repeat;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        transform: translateY(-50%);
+}
+
+/**************フッター********/
+.footer{
+    position: relative;
+    }
+.small_footer{
+    position: absolute;
+    top: 30px;
+    left: 40%;
 }
