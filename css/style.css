@@ -3,6 +3,7 @@
 .header_inner {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 /*ヘッダロゴ設定*/
@@ -12,10 +13,13 @@
 }
 
 /*ヘッダ右設定*/
-.header_inner_right{
-    text-align: right;
-    margin-top: 20px;
+.header_inner_right {
+    margin-top:15px;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 /*****会社理念idea設定*****/
 .idea{
